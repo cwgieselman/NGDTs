@@ -1,1 +1,258 @@
-# NG_DTs
+{
+  "Core": {
+    "Neutral Tertiary": {
+      "$type": "color",
+      "$value": "#FAFAFA",
+      "$description": "Name that Color: Alabaster"
+    },
+    "Neutral Secondary": {
+      "$type": "color",
+      "$value": "#D7D7D7",
+      "$description": "Name that Color: Alto"
+    },
+    "Secondary": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "$description": "Name that Color: White"
+    },
+    "Primary": {
+      "$type": "color",
+      "$value": "#1C1C1C",
+      "$description": "Name that Color: Cod Gray"
+    },
+    "Neutral Primary": {
+      "$type": "color",
+      "$value": "#595959",
+      "$description": "Name that Color: Scorpion"
+    }
+  },
+  "Eyebrow": {
+    "Bold - Preset 77": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "13px",
+        "fontFamily": "Sailec",
+        "fontWeight": 700,
+        "lineHeight": 1.54,
+        "letterSpacing": "1px"
+      }
+    }
+  },
+  "Title1": {
+    "Bold - Preset 311": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "50px",
+        "fontFamily": "Sailec",
+        "fontWeight": 700,
+        "lineHeight": 1.2,
+        "letterSpacing": "0px"
+      }
+    }
+  },
+  "Title2": {
+    "Bold - Preset 177": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "29px",
+        "fontFamily": "Sailec",
+        "fontWeight": 700,
+        "lineHeight": 1.24,
+        "letterSpacing": "0px"
+      }
+    }
+  },
+  "Calculated": {
+    "Danger--DARK": {
+      "$type": "color",
+      "$value": "#802024",
+      "$description": "Computed value of the color defined for contextual Danger.\n\nResult equals a 50% Shade of that base value."
+    },
+    "danger--MID": {
+      "$type": "color",
+      "$value": "#FF656C",
+      "$description": "Computed value of the color defined for contextual Danger.\n\nResult equals an 80% Tiny of that base value."
+    },
+    "danger--LIGHT": {
+      "$type": "color",
+      "$value": "#FFD9DA",
+      "$description": "Computed value of the color defined for contextual Danger.\n\nResult equals a 20% Tint of that base value."
+    },
+    "warning--DARK": {
+      "$type": "color",
+      "$value": "#805B00",
+      "$description": "Computed value of the color defined for a contextual Warning.\n\nResult equals a 50% Shade of that base value."
+    },
+    "warning--MID": {
+      "$type": "color",
+      "$value": "#FFC433",
+      "$description": "Computed value of the color defined for a contextual Warning.\n\nResult equals an 80% Tiny of that base value."
+    },
+    "warning--LIGHT": {
+      "$type": "color",
+      "$value": "#FFF0CC",
+      "$description": "Computed value of the color defined for a contextual Warning.\n\nResult equals a 20% Tint of that base value."
+    },
+    "Success--DARK": {
+      "$type": "color",
+      "$value": "#006646",
+      "$description": "Computed value of the color defined for contextual Success.\n\nResult equals a 50% Shade of that base value."
+    },
+    "success--MID": {
+      "$type": "color",
+      "$value": "#33D5A2",
+      "$description": "Computed value of the color defined for contextual Success.\n\nResult equals an 80% Tiny of that base value."
+    },
+    "Success--LIGHT": {
+      "$type": "color",
+      "$value": "#CCF5E8",
+      "$description": "Computed value of the color defined for contextual Success.\n\nResult equals a 20% Tint of that base value."
+    },
+    "info--DARK": {
+      "$type": "color",
+      "$value": "#026774",
+      "$description": "Computed value of the color defined for contextual Information and Hyperlinking.\n\nResult equals a 50% Shade of that base value."
+    },
+    "info--MID": {
+      "$type": "color",
+      "$value": "#36D8EC",
+      "$description": "Computed value of the color defined for contextual Information and Hyperlinking.\n\nResult equals an 80% Tiny of that base value."
+    },
+    "info--LIGHT": {
+      "$type": "color",
+      "$value": "#CDF5FA",
+      "$description": "Computed value of the color defined for contextual Information and Hyperlinking.\n\nResult equals a 20% Tint of that base value."
+    },
+    "Neutral Secondary--25%": {
+      "$type": "color",
+      "$value": "#D7D7D740",
+      "$description": "Applied in chorus with the 'Overlay Screen' Effect to create separation between layers of content."
+    }
+  },
+  "Gradient": {
+    "Graph Gradient--negative": {
+      "$type": "gradient",
+      "$value": [
+        {
+          "color": "#EB000833",
+          "position": 0
+        },
+        {
+          "color": "#EB0008",
+          "position": 1
+        }
+      ]
+    },
+    "Graph Gradient--positive": {
+      "$type": "gradient",
+      "$value": [
+        {
+          "color": "#00CB8B4D",
+          "position": 0
+        },
+        {
+          "color": "#04CEE714",
+          "position": 1
+        }
+      ]
+    },
+    "Button Gradient--secondary-up": {
+      "$type": "gradient",
+      "$value": [
+        {
+          "color": "#FFFFFF",
+          "position": 0
+        },
+        {
+          "color": "#D7D7D7",
+          "position": 1
+        }
+      ],
+      "$description": "Gradient transitions from 'Secondary' to 'Neutral Secondary,' with the lighter hue on top. Used on Secondary Button Hover State."
+    },
+    "Button Gradient--primary-up": {
+      "$type": "gradient",
+      "$value": [
+        {
+          "color": "#595959",
+          "position": 0
+        },
+        {
+          "color": "#1C1C1C",
+          "position": 1
+        }
+      ],
+      "$description": "Gradient transitions from 'Primary' to 'Neutral Primary,' with the lighter hue on top. Used on Primary Button Hover State."
+    }
+  },
+  "Contextual": {
+    "Danger": {
+      "$type": "color",
+      "$value": "#EB0008",
+      "$description": "Name that Color: Red"
+    },
+    "Warning": {
+      "$type": "color",
+      "$value": "#FFB500",
+      "$description": "Name that Color: Selective Yellow"
+    },
+    "Hyperlink": {
+      "$type": "color",
+      "$value": "#063DFF",
+      "$description": "Brand Palette: BTMX Sapphire"
+    },
+    "Success": {
+      "$type": "color",
+      "$value": "#00855B",
+      "$description": "Name that Color: Deep Sea"
+    }
+  },
+  "Accent and Brand": {
+    "Accent 5": {
+      "$type": "color",
+      "$value": "#A40FC9",
+      "$description": "Name that Color: Electric Violet"
+    },
+    "Accent 4": {
+      "$type": "color",
+      "$value": "#04CEE7",
+      "$description": "Name that Color: Bright Turquoise"
+    },
+    "Accent 3": {
+      "$type": "color",
+      "$value": "#EA258B",
+      "$description": "Name that Color: Cerise"
+    },
+    "Accent 2": {
+      "$type": "color",
+      "$value": "#FFB500",
+      "$description": "Name that Color: Selective Yellow"
+    },
+    "Accent 1": {
+      "$type": "color",
+      "$value": "#00CB8B",
+      "$description": "Name that Color: Caribbean Green"
+    }
+  },
+  "Tile Shadow": {
+    "$type": "shadow",
+    "$value": {
+      "blur": "5px",
+      "color": "#0000001A",
+      "spread": "0px",
+      "offsetX": "0px",
+      "offsetY": "1px"
+    }
+  },
+  "Focus Ring": {
+    "$type": "shadow",
+    "$value": {
+      "blur": "0px",
+      "color": "#063DFF",
+      "spread": "4px",
+      "offsetX": "0px",
+      "offsetY": "0px"
+    },
+    "$description": "Created with defined Link Color. White/Black represents transparent due to Figma limitations"
+  }
+}
